@@ -1,0 +1,582 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+}
+
+/* navigation bar */
+.nav-bar{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    opacity: .8;
+    z-index: 1;
+    
+
+}
+.logo{
+    display: flex;
+    width: 62px;
+    height: 62px;
+    padding: 10px;
+    justify-content: space-around;
+}
+.nav-bar button{
+    margin-top: 30px;
+    font-size: 20px;
+    background: none;
+    color: red;
+    border: none;
+    margin-left: 70px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+}
+
+/* hero section */
+.hero-section{
+    padding-top: 143px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+
+}
+
+.hero-text h2{
+font-size: 60px;
+line-height: 60px;
+padding-top:10px ;
+padding-bottom:10px ;
+color: red;
+padding-left: 200px;
+font-family: Trebuchet MS;
+
+}
+
+.hero-text h4{
+font-size: 38px;
+line-height: 65px;
+padding-top:65px ;
+color: red;
+padding-left: 200px;
+font-family: Trebuchet MS;
+
+}
+.hero-text p{
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom:20px ;
+    color: red;
+    padding-left: 200px;
+    font-family: Trebuchet MS;
+}
+
+.hero-img{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    box-shadow:31px 32px 25px rgba(255, 255, 255, 0.4);
+}
+.hero-section button{
+    font-size: 16px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    margin-left: 400px;
+    background: white;
+    color: red;
+    border-radius: 5px;
+   font-family: cursive;
+}
+
+/* main section */
+
+.card-text h2{
+    color: red;
+    font-size: 50px;
+    font-family: Trebuchet MS;
+}
+.card-text p{
+    color: white;
+    font-size: 25px;
+    font-family: Trebuchet MS;
+    line-height: 60px;
+    
+}
+
+.card-text{
+    
+    padding: 10px;
+    margin: 10px;
+    padding-left: 100px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    padding-bottom: 50px;
+}
+
+.card-img1{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+
+}
+
+.card-img2{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+   
+}
+
+.card-img3{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    
+}
+
+.h2-card{
+    color: red;
+    font-size: 50px;
+    font-family: Trebuchet MS;
+}
+
+/* footer */
+
+.footer{
+    background-color:white;
+}
+
+.footer-hero h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+
+.footer-heroh2:hover{
+    color: rgb(38, 255,0);
+}
+
+.footer-hero:hover{
+    color:rgb(38, 255, 0);
+}
+.font-icons{
+    font-size: 30px;
+    justify-self: center;
+    padding: 10px;
+    
+}
+.font-icons:hover{
+    color:rgb(38, 255, 0);
+}
+
+.footer-grid{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    text-align: center;
+   
+}
+
+.card-grid h2{
+    font-size: 20px;
+    padding: 25px;
+    font-family: cursive;
+}
+.card-grid p{
+    line-height: 30px;
+    font-size: 18px;
+    font-family: cursive;
+}
+.card-grid h5{
+    font-size: 25px;
+    padding: 60px;
+    font-family: cursive;
+}
+ 
+.card-grid h2:hover{
+    color:rgb(38, 255, 0);
+}
+
+.card-grid h5:hover{
+    color:rgb(38, 255, 0);
+}
+.card-grid p:hover{
+    color:rgb(38, 255, 0);
+}
+/* about page */
+.head-image{
+    height:auto;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+    opacity: 0.6;
+    z-index: -1;
+    
+}
+
+.about-hero h1{
+    color: white;
+    position: relative;
+    padding-top: 427px;
+    font-size: 80px;
+    line-height: 150px;
+    text-align: center;
+    font-family: Trebuchet MS;
+    z-index: 0;
+    padding-bottom: 900px;
+}
+
+.main-img{
+    width: 500px;
+    height: auto;
+    align-items: center;
+}
+
+.text-container h2{
+    color: white;
+}
+
+.text-container p{
+    color: white;
+}
+
+.text-img-grid{
+    grid-template-columns: repeat(2,2fr);
+    display: grid;
+    border-top: 5px solid darkcyan;
+    padding-top: 70px;
+    
+
+}
+.text-img-grid h2{
+    color: red;
+    font-family:Trebuchet MS;
+    padding: 90px;
+    font-size:50px ;
+}
+
+.text-img-grid i{
+    color: red;
+}
+.text-img-container{
+    display: flex;
+}
+
+.text-img-container img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.para-grid{
+    color: white;
+    padding: 20px;
+    
+}
+
+/* portfolio */
+
+.color-box{
+    background-color: #747761;
+    padding: 197px 130PX 121px 200px;
+    width: 30%;
+    font-size: 60px;
+    font-family:Trebuchet MS;
+    color: white;
+    position: relative;
+}
+
+.portfolio-hero{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+}
+.portfolio-family{
+    width: 240px;
+    padding: 40px 10px 10px 180px;
+}
+.portfolio-family h2{
+    color: red;
+    font-size: 40px;
+    line-height: 60px;
+    font-family:Trebuchet MS;
+}
+
+.portfolio-family p{
+    color:white;
+    font-size: 17px;
+    font-family:Trebuchet MS;
+}
+
+.portfolio-hero img{
+    width: 900px;
+    height: auto;
+    position: absolute;
+    top: 290px;
+    right: 60px;
+    
+}
+
+.portfolio-family button{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 30px 10px 10px 17px;
+    font-family: Trebuchet MS;
+}
+
+.portfolio-main{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+}
+
+.portfolio-main img{
+    padding: 100px 20px 10px 51px;
+    width: 900px;
+    height: auto;
+}
+
+.portfolio-maternity{
+    width: 240px;
+    padding: 40px 10px 10px 180px;
+}
+
+.portfolio-maternity h2{
+    color: red;
+    font-size: 40px;
+    line-height: 60px;
+    font-family:Trebuchet MS;
+    padding-top: 50px;
+}
+
+.portfolio-maternity p{
+    color:white;
+    font-size: 17px;
+    font-family:Trebuchet MS;
+}
+
+.portfolio-maternity button{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 30px 10px 10px 17px;
+    font-family: Trebuchet MS;
+}
+
+.portfolio-sub-main{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+}
+
+.portfolio-corporate{
+    width: 240px;
+    padding: 40px 10px 10px 180px;
+}
+
+.portfolio-corporate h2{
+    color: red;
+    font-size: 40px;
+    line-height: 60px;
+    font-family:Trebuchet MS;
+    padding-top: 50px;
+}
+
+.portfolio-corporate p{
+    color:white;
+    font-size: 17px;
+    font-family:Trebuchet MS;
+}
+
+.portfolio-corporate button{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 30px 10px 10px 17px;
+    font-family: Trebuchet MS;
+}
+
+.portfolio-sub-main img{
+    padding: 100px 60px 10px 51px;
+    width: 900px;
+    height: auto;
+}
+
+.portfolio-mid{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+}
+
+.portfolio-mid img{
+    padding: 100px 20px 10px 51px;
+    width: 900px;
+    height: auto;
+}
+
+.portfolio-baby{
+    width: 240px;
+    padding: 40px 10px 10px 180px;
+}
+
+.portfolio-baby h2{
+    color: red;
+    font-size: 40px;
+    line-height: 60px;
+    font-family:Trebuchet MS;
+    padding-top: 50px;
+}
+
+.portfolio-baby p{
+    color:white;
+    font-size: 17px;
+    font-family:Trebuchet MS;
+}
+
+.portfolio-baby button{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 30px 10px 10px 17px;
+    font-family: Trebuchet MS;
+}
+
+.portfolio-bottom{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+}
+
+.portfolio-bottom img{
+    padding: 100px 60px 60px 51px;
+    width: 900px;
+    height: auto;
+}
+
+.portfolio-model{
+    width: 240px;
+    padding: 40px 10px 10px 180px;
+}
+
+.portfolio-model h2{
+    color: red;
+    font-size: 40px;
+    line-height: 60px;
+    font-family:Trebuchet MS;
+    padding-top: 50px;
+}
+
+.portfolio-model p{
+    color:white;
+    font-size: 17px;
+    font-family:Trebuchet MS;
+}
+
+.portfolio-model button{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 30px 10px 10px 17px;
+    font-family: Trebuchet MS;   
+}
+
+
+/* family page */
+
+.photo-section{
+    background-color: white;
+}
+
+.color-box-section{
+    background-color: white; 
+}
+.family-page-main{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+}
+
+.img-row-1 img{
+    width: 300px;
+    padding: 10px 10px 10px 250px;
+    height: 450px;
+
+}
+
+.img-row-2 img{
+    width: 600PX;
+    padding: 10px 350px 10px 10px;
+    height: 450px;
+}
+
+.img-row-4 img{
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    height: 450px;
+
+}
+
+.img-row-3 img{
+    width: 600PX;
+    padding: 10px 10px 10px 250px;
+    height: 450px;
+}
+
+/* maternity page */
+
+.maternity-page-main{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+}
+
+/* corporate page */
+
+.corporate-grid{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+}
+
+.corporate-grid img{
+    width: 250px;
+    margin: 50px 10px 10px 150px;
+}
+
+.corporate-grid button{
+    margin: 10px 10px 150px 200px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+    justify-self: center;
+}
